@@ -1,0 +1,24 @@
+# Ignore env file
+.env
+
+# MySQL database files
+database/mysql/
+database/mysql/*
+
+# WordPress data
+database/wp-data/
+database/wp-data/*
+
+# WordPress content
+wordpress/wp-app/wp-content/
+wordpress/wp-app/wp-content/*
+
+# Proxy subfolders
+proxy/data/
+proxy/data/*
+proxy/letsencrypt/
+proxy/letsencrypt/*
+
+# System files
+.DS_Store
+Thumbs.db
